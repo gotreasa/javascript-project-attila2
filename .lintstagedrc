@@ -1,0 +1,5 @@
+{
+  "*.{cjs,js}": ["npm run lint:verify"],
+  "*.{cjs,css,feature,js,json,rb,md,sh,yaml,yml}": ["npm run prettier:verify"],
+  "package.json": ["sort-package-json", "typesync ./package.json --silent"]
+}
